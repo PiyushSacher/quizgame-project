@@ -13,3 +13,19 @@ def check_guess(guess, answer):
             attempt = attempt + 1
     if attempt == 2:
         print("The Correct answer is ",answer )
+
+
+Person 1:
+score = 0
+print("Guess the correct answer!")
+guess1 = input("Who is known as the God of cricket?")
+check_guess(guess1, "Sachin Tendulkar")
+guess2 = input("Who is known as Mr. 360?")
+check_guess(guess2, "AB De Villiers")
+guess3 = input("Who captained India in 2011 World Cup? ")
+check_guess(guess3, "MS Dhoni")
+guess4 = input("Who is known as the Wall of cricket?")
+check_guess(guess4, "Rahul Dravid")
+guess5 = input("Who has bowled the fastest ball in cricket history?")
+check_guess(guess5, "Shoaib Akhtar")
+print("Your Score is "+ str(score))
